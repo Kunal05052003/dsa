@@ -71,7 +71,7 @@ def delete(h, k):
         h[index]['name'] = "NULL"
         print("\n\tKey is Deleted")
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     h = initialize_hash_table()
     while True:
         print("\n\t***** Telephone (ADT) *****")
